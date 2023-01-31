@@ -7,6 +7,7 @@ function mostrar()
 
 	// var edad;
 
+	// variable let nombre;
 	let nombre;
 
 	let nombreCompleto; // Notacion Lower camel case
