@@ -6,8 +6,10 @@ function mostrar()
 
 	//numeroRandom = Math.floor(marh.random()* 10 + 1);
 
+	let numeroRandom;
 
+	numeroRandom = Math.floor(Math.random(1) * 11);
 
-	alert(Math.random(1,10 + 1));
+	alert(numeroRandom);
 
 }//FIN DE LA FUNCIÓN
