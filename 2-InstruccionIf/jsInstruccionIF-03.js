@@ -8,12 +8,12 @@ function mostrar()
 
 	if(edad > 17)
 	{
-		alert('Sos mayor de edad')
+		alert('Sos mayor de edad');
 	}
 	//else si o si desp de un if
 	else
 	{
-		alert('Sos menor de edad')
+		alert('Sos menor de edad');
 	}
 
 }
@@ -31,6 +31,7 @@ function mostrar()
 FIN DE LA FUNCIÓN
  
 	OPERADOR DE COMPARACION 
+	!= DISTINTO A 
 	== IGUAL A 
 	< MENOR A
 	<= MENOR IGUAL A  */
