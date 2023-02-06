@@ -10,7 +10,7 @@ function mostrar()
 	// variable let nombre;
 	let nombre;
 
-	let nombreCompleto; // Notacion Lower camel case
+	//let nombreCompleto; // Notacion Lower camel case
 
 	nombre = prompt('Ingrese un nombre')
 
