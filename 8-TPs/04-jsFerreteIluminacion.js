@@ -37,51 +37,51 @@ function CalcularPrecio() {
         if (cantidad == 5 && marca == 'ArgentinaLuz') {
 
             //precio = precioCantidad * 40 / 100;
-            descuento = 0.60;
+            descuento = 0.40;
 
         } else {
 
             if (cantidad == 5 && marca != 'Argentina luz') {
 
                 //precio = precioCantidad * 30 / 100;
-                descuento = 0.70;
+                descuento = 0.30;
 
             } else {
 
                 if (cantidad == 4 && marca == 'ArgentinaLuz') {
 
                     //precio = precioCantidad * 25 / 100;
-                    descuento = 0.75;
+                    descuento = 0.25;
 
                 } else {
                     if (cantidad == 4 && marca == 'FelipeLamparas') {
 
-                        descuento = 0.75;
+                        descuento = 0.25;
 
                     } else {
 
                         if (cantidad == 4 && marca != 'ArgentinaLuz' && marca != 'FelipeLamparas') {
 
                             //precio = precioCantidad * 20 / 100;
-                            descuento = 0.80;
+                            descuento = 0.20;
 
                         } else {
 
                             if (cantidad == 3 && marca == 'ArgentinaLuz') {
 
-                                descuento = 0.85;
+                                descuento = 0.15;
 
                             } else {
 
                                 if (cantidad == 3 && marca == 'FelipeLamparas') {
 
-                                    descuento = 0.90;
+                                    descuento = 0.10;
 
                                 } else {
 
                                     if (cantidad == 3 && marca != 'ArgetinaLuz' && marca != 'FelipeLamparas') {
 
-                                        descuento = 0.95;
+                                        descuento = 0.05;
 
                                     } else {
 
