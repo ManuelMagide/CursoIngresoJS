@@ -28,6 +28,10 @@ function CalcularPrecio() {
 
     precioFinal = precioCantidad + ingresosBrutos;
 
+    if (isNaN(cantidad)) {
+        alert('Ingrese un numero.');
+    }
+
     if (cantidad >= 6) {
 
         //precio = precioCantidad / 2;
@@ -111,4 +115,10 @@ function CalcularPrecio() {
     }
 }
 
-/* txtIdCantidad  txtIdprecioDescuento */
+/* txtIdCantidad  txtIdprecioDescuento
+
+     if (isNaN(cantidad)) {
+        alert('Ingrese un numero.');
+    }  SIRVE PARA QUE NO SALGA EL VALOR NaN AL INGRESAR UNA PALABRA EN VEZ DE UN NUMERO.
+
+*/
