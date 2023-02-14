@@ -13,10 +13,16 @@ function mostrar() {
 	while (true) {
 
 		numero = prompt("Ingrese el numero que quiera o escriba 'salir' para continuar.");
+
+		if (numero === 'salir') {
+			break;
+		}
+
 		numero = parseInt(numero);
 
-		if (isNaN(numero) || numero == 'salir') {
-			break;
+		if (isNaN(numero)) {
+			alert ('Ingrese un numero para continuar, por favor.');
+			continue;
 		}
 
 		acumulador += numero;
