@@ -14,7 +14,7 @@ function mostrar() {
 			break;
 
 		case 'Marzo':
-			alert("a clases!!!.")
+			alert("a clases!!!.");
 			break;
 
 		case 'Julio': //mesDelAño === 'Julio'.
