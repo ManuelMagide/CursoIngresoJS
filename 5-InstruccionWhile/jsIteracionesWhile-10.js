@@ -31,34 +31,31 @@ function mostrar() {
 		numero = prompt("Ingrese un numero.");
 		numero = parseInt(numero);
 
-		if (isNaN (numero)) {
-			alert ('Error!! Ingrese solo numeros')
-			continue;
+		while (isNaN(numero)) {
+			numero = prompt("Error!! Ingrese un numero.");
+			numero = parseInt(numero);
 		}
 
 		if (numero < 0) {
 			sumaNegativos += numero;
-			contadorNegativos ++;
+			contadorNegativos++;
 
 		} else {
 			if (numero > 0) {
 				sumaPositivos += numero;
-				contadorPositivos ++;
+				contadorPositivos++;
 
 			} else {
-				contadorCeros ++;
+				contadorCeros++;
 
 			}
 		}
 
 		if (numero % 2 == 0) {
-			contadorPares ++;
+			contadorPares++;
 		}
 
-		respuesta = prompt ('¿Desea continuar? Si o no')
-		if (respuesta == 'no') {
-			break;
-		}
+		respuesta = prompt('¿Desea continuar? Si o no')
 	}
 
 	promedioPositivos = sumaPositivos / contadorPositivos;
