@@ -1,4 +1,11 @@
 function mostrar()
 {
-  alert("dos");
+  let deposito;
+  let validacion = false;
+  
+  while (!validacion) {
+  
+    
+  }
+  
 }

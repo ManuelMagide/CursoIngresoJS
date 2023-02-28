@@ -62,3 +62,49 @@ function ComenzarIngreso() {
 	document.getElementById("txtIdLegajo").value = legajo;
 	document.getElementById("txtIdNacionalidad").value = nacionalidad;
 }
+
+
+
+
+/*
+---------------------VALIDACION-------------------------
+while (!validacion) {
+
+-----------------(!isNaN())ESTA MAQUETA ES PARA UN WHILE QUE NO TENGA OPCIONES---------------------------
+	 = prompt().toUpperCase();
+	while (!isNaN()) { 
+		 = prompt('Error!! Ingrese ').toUpperCase();
+	}
+
+------------------MAQUETA PARA OPCIONES PARA EL WHILE---------------------
+	 = prompt().toUpperCase();
+	while () { 
+		 = prompt('Error!! Ingrese).toUpperCase();
+	}
+
+-------------MAQUETA PARA ISNAN DE NUMEROS----------------------
+	 = prompt('Ingrese ');
+	 = parseInt();
+	while (isNaN == ) {
+		 = prompt('Error!! Ingrese');
+		 = parseInt();
+	}
+}
+--------------------MAX Y MIN----------------------------
+	let Max = Number.NEGATIVE_INFINITY;
+	let Min = Number.POSITIVE_INFINITY;
+---------------------DO WHILE--------------------------
+	DO WHILE
+			do {
+			 = prompt().toLowerCase();
+		} while ();
+
+---------------------------------BANDERASS------------------------
+	if (bandera == 0) {
+			bandera = 1;
+			
+		} else {
+			if ( > ) {
+
+			}
+*/
